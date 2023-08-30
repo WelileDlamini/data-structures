@@ -6,7 +6,7 @@ def foo(array):
     for i in array:  # O(n)
         sum += i  # O(1)
     for i in array: # 0(n)
-        product *= i # O(1)
+        product *= i # (1)
     print("Sum = " +str(sum)+", Product = "+str(product)) # O(1) final is O(n)
 
 
